@@ -23,9 +23,12 @@ GLUON_SITE_PACKAGES := \
 	gluon-radvd \
 	gluon-setup-mode \
 	gluon-ssid-changer \
-	gluon-status-page \
 	gluon-migrate-vpn \
 	gluon-tunneldigger-watchdog \
+	ffho-ath9k-blackout-workaround \
+	gluon-ebtables-filter-roguenets \
+	ffac-status-page-api \
+	gluon-status-page \
 	haveged \
 	iptables \
 	iwinfo
@@ -33,7 +36,7 @@ GLUON_SITE_PACKAGES := \
 GLUON_LANGS ?= en de
 
 #DEFAULT_GLUON_RELEASE := 0.7-$(GLUON_BRANCH)-$(shell date '+%Y%m%d')
-DEFAULT_GLUON_RELEASE := 0.8.3
+DEFAULT_GLUON_RELEASE := 0.8.2tf
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
