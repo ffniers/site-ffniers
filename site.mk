@@ -38,7 +38,7 @@ GLUON_REGION ?= eu
 GLUON_LANGS ?= en de
 
 #DEFAULT_GLUON_RELEASE := 0.7-$(GLUON_BRANCH)-$(shell date '+%Y%m%d')
-DEFAULT_GLUON_RELEASE := 0.8.3
+DEFAULT_GLUON_RELEASE := 0.8.5
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
@@ -46,4 +46,3 @@ GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 GLUON_PRIORITY ?= 0
 
 GLUON_ATH10K_MESH ?= ibss
-
