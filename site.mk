@@ -70,13 +70,13 @@ ifeq ($(GLUON_TARGET),brcm2708-bcm2709)
 		$(USB_WIFI)
 endif
 
-DEFAULT_GLUON_RELEASE := 0.9.01
+DEFAULT_GLUON_RELEASE := 0.9.03
 
-# Allow overriding the release number from the command line
+
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
-# Default priority for updates.
 GLUON_PRIORITY ?= 0
+GLUON_BRANCH ?= stable
 
 GLUON_LANGS ?= en de
 
